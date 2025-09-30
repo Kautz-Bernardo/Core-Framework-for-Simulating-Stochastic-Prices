@@ -1,3 +1,5 @@
+#⛓︎ Work authored by Bernardo Kautz. Follow on LinkedIn: https://www.linkedin.com/in/bernardo-kautz/.
+
 import warnings
 import numpy as np
 import yfinance as yf
@@ -74,4 +76,5 @@ axis_histogram.axhspan(percentiles[0], percentiles[4], color = 'lightgray', alph
 axis_histogram.legend(fontsize = 8.5, loc = 'best')
 
 pyplot.tight_layout()
+
 pyplot.show()
